@@ -1,0 +1,19 @@
+{
+  "name": "shared-config-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "example": "pnpm --filter example"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "eslint": "8.57.0",
+      "@typescript-eslint/eslint-plugin": "7.5.0",
+      "@typescript-eslint/parser": "7.5.0"
+    }
+  }
+}
